@@ -1,0 +1,26 @@
+.landing{
+    background-color: #df4c3b;
+    
+}
+.slogan{
+    font-family: 'Permanent Marker', cursive; 
+    color: white;
+    font-size: 20px;
+}
+
+.slogan h1{
+    font-size: 75px;
+}
+.logins h5{
+    color: #163c50;
+    margin-bottom: 10vh;
+}
+.logins input{
+}
+
+
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Caveat', cursive;
+#163c50; */

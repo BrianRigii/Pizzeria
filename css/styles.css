@@ -5,15 +5,17 @@
 .slogan{
     font-family: 'Permanent Marker', cursive; 
     color: white;
-    font-size: 20px;
+    
 }
 
 .slogan h1{
-    font-size: 75px;
+    font-size: 60px;
 }
 .logins h5{
     color: #163c50;
     margin-bottom: 10vh;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
 }
 
 

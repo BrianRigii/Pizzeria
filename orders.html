@@ -37,7 +37,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title">Meat Lover</h5>
                                   <p class="card-text">Bacon (Real Canadian), Ground Beef, Ham, Pepperoni (Dry Cured), Sausage (Italian), Mozzarella Cheese and Pizzaiolo Tomato Sauce.</p>
-                                  <a href="#" class="btn btn-dark">ORDER &nbsp;<i class="fas fa-fire"></i></a>
+                                  <a href="#cart" class="btn btn-dark" onclick="meatlover()">ORDER &nbsp;<i class="fas fa-fire"></i> </a>
                                 </div>
                               </div>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="col-5">
                     <div class="card mt-4">
                         <div class="card-body">
-                            <h4>Please pick a pizza above</h4>
+                            <h4 id="pizzatitle">Please pick a pizza above</h4>
                             <p>Evey bite takes you home</p>
                             <div class="form-group inputs">
                                 <label for="Pizza size">Size</label><br>
@@ -96,7 +96,7 @@
                                 <input type="number" name="quantity" id="Quantity" value="1" min=1>  <br>
 
 
-                                <a href="#" class="btn btn-dark mt-4">Add to cart &nbsp;<i class="fas fa-shopping-basket"></i></a>
+                                <a href="#"id="cart" class="btn btn-dark mt-4">Add to cart &nbsp;<i class="fas fa-shopping-basket"></i></a>
                                 <button type="button" class="btn btn-outline-dark mt-4">Proceed to checkout</button>
                             </div>
                         </div>
@@ -181,5 +181,6 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="js/main.js"></script>
 </body>
 </html>

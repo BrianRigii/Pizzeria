@@ -37,7 +37,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title">Meat Lover</h5>
                                   <p class="card-text">Bacon (Real Canadian), Ground Beef, Ham, Pepperoni (Dry Cured), Sausage (Italian), Mozzarella Cheese and Pizzaiolo Tomato Sauce.</p>
-                                  <a href="#cart" class="btn btn-dark" onclick="meatlover()">ORDER &nbsp;<i class="fas fa-fire"></i> </a>
+                                  <a href="#pizzatitle" class="btn btn-dark" onclick="meatlover()">ORDER &nbsp;<i class="fas fa-fire"></i> </a>
                                 </div>
                               </div>
                 </div>
@@ -47,7 +47,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title">Vegetarian Heaven</h5>
                                   <p class="card-text">Green Peppers, Mushrooms (Fresh), Pepperoni (Dry Cured), Mozzarella Cheese and Pizzaiolo Tomato Sauce</p>
-                                  <a href="#" class="btn btn-dark mt-3">ORDER &nbsp;<i class="fas fa-fire"></i></a>
+                                  <a href="#pizzatitle" class="btn btn-dark mt-3" onclick="vegetarian()">ORDER &nbsp;<i class="fas fa-fire"></i></a>
                                 </div>
                               </div>
                 </div>
@@ -57,7 +57,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title">Toni Pepperoni</h5>
                                   <p class="card-text">Bacon (Real Canadian), Parmigiano Cheese, Pepperoni (Dry Cured), Sausage (Italian), Mozzarella Cheese and Pizzaiolo Tomato Sauce</p>
-                                  <a href="#" class="btn btn-dark">ORDER &nbsp;<i class="fas fa-fire"></i></a>
+                                  <a href="#pizzatitle" class="btn btn-dark"onclick="toni()">ORDER &nbsp;<i class="fas fa-fire"></i></a>
                                 </div>
                               </div>
                 </div>
@@ -74,30 +74,32 @@
                             <h4 id="pizzatitle">Please pick a pizza above</h4>
                             <p>Evey bite takes you home</p>
                             <div class="form-group inputs">
-                                <label for="Pizza size">Size</label><br>
-                                <input type="radio" name="size" id="large">large
-                                <input type="radio" name="size" id="Medium">Medium
-                                <input type="radio" name="size" id="Small">small
-
-                                <br>
-                                <label for="Toppings">Toppings</label><br>
-                                <input type="checkbox" name="Toppings" id="olives"> Black Olives
-                                <input type="checkbox" name="Toppings" id="Bacon"> Bacon <br>
-                                <input type="checkbox" name="Toppings" id="pepper"> Green Peppers
-
-
-                                <br>
-                                <label for="Toppings">Crust</label><br>
-                                <input type="checkbox" name="crust" id="crispy"> Crispy
-                                <input type="checkbox" name="crust" id="stuffed"> Stuffed<br>
-                                <input type="checkbox" name="crust" id="gluten"> Gluten free <br>
-
-                                <label for="Number">How many ?</label><br>
-                                <input type="number" name="quantity" id="Quantity" value="1" min=1>  <br>
-
-
-                                <a href="#"id="cart" class="btn btn-dark mt-4">Add to cart &nbsp;<i class="fas fa-shopping-basket"></i></a>
-                                <button type="button" class="btn btn-outline-dark mt-4">Proceed to checkout</button>
+                                <form action="">
+                                        <label for="Pizza size">Size</label><br>
+                                        <input type="radio" name="size" id="large">large
+                                        <input type="radio" name="size" id="Medium">Medium
+                                        <input type="radio" name="size" id="Small">small
+        
+                                        <br>
+                                        <label for="Toppings">Toppings</label><br>
+                                        <input type="checkbox" name="Toppings" id="olives"> Black Olives
+                                        <input type="checkbox" name="Toppings" id="Bacon"> Bacon <br>
+                                        <input type="checkbox" name="Toppings" id="pepper"> Green Peppers
+        
+        
+                                        <br>
+                                        <label for="Toppings">Crust</label><br>
+                                        <input type="checkbox" name="crust" id="crispy"> Crispy
+                                        <input type="checkbox" name="crust" id="stuffed"> Stuffed<br>
+                                        <input type="checkbox" name="crust" id="gluten"> Gluten free <br>
+        
+                                        <label for="Number">How many ?</label><br>
+                                        <input type="number" name="quantity" id="Quantity" value="1" min=1>  <br>
+        
+                                        <button type="reset" class="btn btn-dark">Add to cart&nbsp;<i class="fas fa-shopping-basket"></i></a></button>
+                                        <button type="button" class="btn btn-outline-dark mt-4">Proceed to checkout</button>
+                                </form>
+                               
                             </div>
                         </div>
                     </div>

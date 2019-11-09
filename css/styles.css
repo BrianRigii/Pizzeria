@@ -1,10 +1,17 @@
 .landing{
     background-color: #df4c3b;
+    padding-bottom: 80px
     
 }
 .slogan{
     font-family: 'Permanent Marker', cursive; 
     color: white;
+    
+}
+.slogantxt p{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 40px;
+    color: #163c50;
     
 }
 

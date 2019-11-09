@@ -36,6 +36,28 @@
     color: #163c50; 
     font-size: 35px; 
 }
+.ordertops h4{
+    font-family: 'Permanent Marker', cursive; 
+
+}
+.ordertops p{
+    font-family: 'Caveat', cursive;
+
+}
+.inputs label{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.inputs input{
+    margin: 10px;
+}
+.checkout{
+    margin-top: 20vh;
+}
+.checkout h4{
+    font-family: 'Permanent Marker', cursive;
+    color: #163c50;
+}
 
 
 

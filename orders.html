@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row mt-4">
                 <div class="col-6">
-                    <h2>An Oasis of deliciousness</h2>
+                    <h2 id="menu">An Oasis of deliciousness</h2>
                 </div>
             </div>
             <div class="row mt-4 pizzas">
@@ -94,9 +94,11 @@
                                         <input type="checkbox" name="crust" id="gluten"> Gluten free <br>
         
                                         <label for="Number">How many ?</label><br>
-                                        <input type="number" name="quantity" id="Quantity" value="1" min=1>  <br>
+                                        <input type="number" name="quantity" id="Quantity" value="1" min="1">  <br>
         
-                                        <button type="reset" class="btn btn-dark">Add to cart&nbsp;<i class="fas fa-shopping-basket"></i></a></button>
+                                        <button type="reset"  onclick="addcart()" class="btn btn-dark mt-4">Add to cart&nbsp;<i class="fas fa-shopping-basket"></i></a></button>
+
+
                                         <button type="button" class="btn btn-outline-dark mt-4">Proceed to checkout</button>
                                 </form>
                                
@@ -125,6 +127,17 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Checkout</h4>
+                            <br>
+                            <div class="list">
+                               <table class="table table-dark">
+                                 <tr>
+                                   <td>Pizza</td>
+                                   <td>Size</td>
+                                   <td>Toppings</td>
+                                   <td>Qty</td>
+                                 </tr>
+                               </table>
+                            </div>
                         </div>
                     </div>
                 </div>

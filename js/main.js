@@ -1,14 +1,29 @@
-function meatlover(){
-   var pizzatitle= document.getElementById("pizzatitle")
-   pizzatitle.innerText = "Meat Lover"
+// user interface logic
+
+var pizzatitle = document.getElementById("pizzatitle");
+
+function meatlover() {
+  pizzatitle.innerText = "Meat Lover";
 }
-function vegetarian(params) {
-    var pizzatitle= document.getElementById("pizzatitle")
-   pizzatitle.innerText = "Vegeterian Heaven"
-    
+function vegetarian() {
+  pizzatitle.innerText = "Vegeterian Heaven";
 }
-function toni(params) {
-    var pizzatitle= document.getElementById("pizzatitle")
-   pizzatitle.innerText = "Toni Pepperoni"
-    
+function toni() {
+  pizzatitle.innerText = "Toni Pepperoni";
+}
+
+function addcart() {
+  pizzatitle.innerText = "Pick another pizza above";
+}
+
+
+
+
+
+
+
+
+//business logic
+function pizza (name ,size){
+
 }

@@ -25,7 +25,7 @@ You can access the site by clicking [here](https://brianrigii.github.io/Pizzeria
 - CSS3
 - Javascript and Jquery
 - Bootstrap 4
-- Mail chimp API
+
 
 > Made responsive using bootstrap grid
 

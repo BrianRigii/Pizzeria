@@ -104,9 +104,16 @@ function addcart(){
 }
 
 function deliver(){
-  var answer = prompt("Where do you want you pizza delivered?")
-  if(answer == "Yes"){
-    grandTotal 
+  var customer = $("#name").val()
+  var location =$("#location").val()
+
+  if (location == null){
+    window.location.replace("index.html")
+  }
+  else{
+ $(".customer").append(customer)
+ $(".location").append(loc)
+
   }
   
 }
